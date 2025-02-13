@@ -9,12 +9,12 @@ class Config:
         self.batch_size= 32
         self.gradient_accumulation_steps = 1
         self.num_epochs = 100
-        self.forget_loss = 'grad_ascent' #select from grad_ascent, grad_diff, KL, dpo
         self.overwrite_dir = True
         self.weight_decay = 0.01 
-        self.save_dir = '/home/praveen/theoden/ul_paper/outputs/testing'
+        self.save_dir = '/directory/to/save/model'
         self.access_token = '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'
         self.model_id = 'meta-llama/Meta-Llama-3.1-8B-Instruct'
-        self.data_path = '/home/praveen/theoden/ul_paper/dataset/forget.csv'
+        self.data_path = '/home/praveen/theoden/ul_paper/dataset/forget.csv' # please change the path to the dataset
+        self.loss_type = 'grad_diff' #or 'grad_ascent' or 
 
 
