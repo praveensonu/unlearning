@@ -12,9 +12,9 @@ class Config:
         self.overwrite_dir = True
         self.weight_decay = 0.01 
         self.save_dir = '/directory/to/save/model'
-        self.access_token = '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'
+        self.access_token = '' # please add a hf token here
         self.model_id = 'meta-llama/Meta-Llama-3.1-8B-Instruct'
-        self.data_path = '/home/praveen/theoden/ul_paper/dataset/forget.csv' # please change the path to the dataset
+        self.data_path = '/dataset/forget.csv' # please change the path to the dataset
         self.loss_type = 'grad_diff' #or 'grad_ascent' or 
 
 
